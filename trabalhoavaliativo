@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<ul class="HeaderUl">
+			<li>Uol</li>
+			<li>Bol</li>
+			<li>Globo</li>
+			<li>Yahoo</li>
+		</ul>
+		<p id="HeaderP">10 de novembro de 2019</p>
+	</header>
+	<nav>
+		<a href="" class="active">Home</a>
+		<a href="">Trofeus</a>
+		<a href="">Historia</a>
+		<a href="">Conselho</a>
+	</nav>
+	<main>
+		<article>
+			<section>
+				<h2>O Time</h2>
+				<div class="row">
+					<div class="column">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, optio libero. Autem consectetur, quae dolore, maxime at quo! Voluptate molestiae sint doloremque! Vitae perspiciatis cumque ducimus cupiditate, ratione, omnis nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio id vitae aperiam. Nihil saepe modi incidunt, molestiae ab, eveniet sequi, ratione a possimus corporis officiis harum! Illo iusto, adipisci temporibus?</p>
+					</div>
+					<div class="column">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ducimus beatae veritatis blanditiis, rerum laboriosam, voluptatum ea rem repellat voluptate assumenda atque, eveniet ullam libero nisi facilis consequuntur pariatur unde! </p>
+					</div>
+					<div class="column">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae porro inventore? Saepe pariatur temporibus culpa eius facilis tempore non, laudantium quam ipsam quos perspiciatis iure, aut vero. Quam, laboriosam. </p>
+					</div>
+					<div class="column">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ad, dicta tempore blanditiis sint libero praesentium. Ex blanditiis aliquam alias animi id eos odio aspernatur, iure, ut, mollitia nulla iusto.</p>
+					</div>
+				</section>
+			</article>
+		</main>
+		<aside>
+			<ul>
+				<li>Feed</li>
+				<li>Noticia</li>
+				<li>Comedia</li>
+			</ul>
+		</aside>
+		<footer>
+			Este é um rodape
+		</footer>
+	</body>
+	</html>
+*{
+	margin: 0;
+
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: black;	
+	float: left;
+	margin: 0;	
+	
+}
+
+header p {
+	color:white;
+	float: right;
+	margin-right: 40%;
+	width: 20%;
+	float: right;
+}
+
+header li {
+	display: inline;	
+	color: lightblue;
+}
+
+#HeaderP{
+	padding-bottom: 30px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 15px;
+}
+
+.HeaderUl{
+	width: 300px;
+	padding-top: 15px; 
+	padding-left: 10px;
+	margin-left: 50px;
+	position: absolute;
+}
+
+.HeaderUl li{
+	padding: 8px;
+	margin-top: 50%;	
+}
+
+nav{	
+	display: flex;
+	width: 100%;
+	height: 50px;
+	border-bottom:  5px solid gray;
+	border-top:  5px solid gray;
+	background-color: #0B2C4D;
+}
+
+nav a {
+	color: white;	
+	text-decoration: none;
+	font-size: 20px;
+	padding: 12px;
+	padding-left: 20px;	 
+}
+
+main{
+	width: 70%;
+	float: left;
+	height: 100%;
+	border: 20px solid white;
+}
+
+main h2{
+	text-align: center;
+
+}
+.active{
+	background-color: #005685; 
+}
+
+article{
+	border:15px solid #BABABA;
+	height: 100%;
+	width: 100%;
+
+}
+section{	
+	background-color: #D8D8D8;
+	height: 100%;
+	width: 100%;
+	padding-top: 20px;
+}
+
+section h2{
+	color: #ACC4DC;
+	padding-bottom: 25px;
+	font-size: 35px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside{	
+	width: 20%;
+	float: right;
+	height: 487px;
+	background-color: #002252;
+}
+
+aside li{
+	color: lightblue;
+	margin-top: 8px; 
+}
+
+footer {
+	padding-top: 20px;
+	display: flex;	
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: left;		
+}
